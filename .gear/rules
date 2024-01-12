@@ -1,0 +1,4 @@
+spec: plasma5-wallpaper-engine-kde-plugin.spec
+copy: *.patch
+tar: @name@
+tar: glslang name=glslang base=src/backend_scene/third_party/glslang

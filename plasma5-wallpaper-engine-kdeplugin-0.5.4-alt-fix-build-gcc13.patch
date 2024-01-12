@@ -1,0 +1,11 @@
+diff --color -rupN plasma5-wallpaper-engine-kde-plugin-0.5.4/src/backend_scene/third_party/vk_mem_alloc.h plasma5-wallpaper-engine-kde-plugin-0.5.4-new/src/backend_scene/third_party/vk_mem_alloc.h
+--- plasma5-wallpaper-engine-kde-plugin-0.5.4/src/backend_scene/third_party/vk_mem_alloc.h	2022-07-31 18:11:12.000000000 +0300
++++ plasma5-wallpaper-engine-kde-plugin-0.5.4-new/src/backend_scene/third_party/vk_mem_alloc.h	2023-08-15 22:41:50.060086208 +0300
+@@ -2559,6 +2559,7 @@ remove them if not needed.
+     #include <cassert> // for assert
+     #include <algorithm> // for min, max
+     #include <mutex>
++    #include <cstdio>
+ #else
+     #include VMA_CONFIGURATION_USER_INCLUDES_H
+ #endif

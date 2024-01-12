@@ -1,0 +1,12 @@
+diff --color -rupN plasma5-wallpaper-engine-kde-plugin-0.5.4/plugin/contents/ui/Pyext.qml plasma5-wallpaper-engine-kde-plugin-0.5.4asf/plugin/contents/ui/Pyext.qml
+--- plasma5-wallpaper-engine-kde-plugin-0.5.4/plugin/contents/ui/Pyext.qml	2022-07-31 18:11:12.000000000 +0300
++++ plasma5-wallpaper-engine-kde-plugin-0.5.4asf/plugin/contents/ui/Pyext.qml	2023-08-16 00:02:37.603515962 +0300
+@@ -6,7 +6,7 @@ import "jsonrpc.mjs" as Jsonrpc
+ 
+ Item {
+     id: root
+-    readonly property string file: "plasma/wallpapers/com.github.casout.wallpaperEngineKde/contents/pyext.py"
++    readonly property string file: "kf5/plasma/wallpapers/com.github.casout.wallpaperEngineKde/contents/pyext.py"
+     readonly property string source: {
+         const sh = [
+             `EXT=${file}`,
